@@ -11,9 +11,9 @@ Example Usage: API
 ---------------------
 
 ```
-import hsapi
+import helpscout
 
-client = hsapi.ApiClient()
+client = helpscout.Client()
 client.API_KEY = "your-api-key-here"
 
 mailboxes = client.mailboxes()
